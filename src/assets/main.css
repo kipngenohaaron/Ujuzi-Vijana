@@ -1,0 +1,60 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  /* Header Styles */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #003366;
+    color: white;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #003366;
+    color: white;
+  }
+  
+  /* Section Styles */
+  .hero, .about, .programs, .contact {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .hero {
+    background-color: #006699;
+    color: white;
+  }
+  
+  .program-item {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    margin: 10px;
+  }
+  
