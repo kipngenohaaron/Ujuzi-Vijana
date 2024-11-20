@@ -73,11 +73,12 @@
   
   /* Homepage Styles */
   .homepage {
-    background: url('background.jpg') center/cover no-repeat;
+    background: url('./images/background.jpg') center/cover no-repeat;
     color: #fff;
     padding: 80px 20px;
     text-align: center;
   }
+  
   
   .homepage h1 {
     font-size: 3rem;
